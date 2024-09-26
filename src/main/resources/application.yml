@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: hello-claude
+    ai:
+      anthropic:
+        api-key: ${ANTHROPIC_API_KEY}
+        chat:
+          options:
+            model: claude-3-5-sonnet-20240620
+            max-tokens: 2000
